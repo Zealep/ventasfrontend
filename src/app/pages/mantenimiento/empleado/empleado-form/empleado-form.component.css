@@ -1,0 +1,23 @@
+.inputs{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+mat-form-field,button{
+  margin: 0.4rem;
+  width: 15rem;
+}
+
+.formulario{
+ margin-top: 1rem;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  mat-form-field,button{
+    margin: 0.4rem;
+    width: 100%;
+  }
+}
+
+
+
